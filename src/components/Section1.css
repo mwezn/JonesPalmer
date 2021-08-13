@@ -1,0 +1,9 @@
+#section1 {  /* Parallax effect */
+    background-image: url("../assets/boardwalkXL.jpg");
+    height: 100vh;
+    width:100%;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
