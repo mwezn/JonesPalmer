@@ -13,7 +13,7 @@ const Navbar =()=> {
         <header>
         <nav id="navbar">
             <div class="logo">
-             <img src={img}></img>
+             <img src={img} alt="Random text"></img>
             </div>
         <div id="showbar">
         <div id="close" class="close">
