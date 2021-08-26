@@ -4,7 +4,7 @@ import img2 from '../assets/beach2.jpg'
 import img3 from '../assets/seasky.jpg'
 import "react-responsive-carousel/lib/styles/carousel.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import {Section2, Section3 } from './Section2.js'
+import {Slide1, Slide2,Slide3} from './Section2.js'
 
 
 
@@ -28,7 +28,7 @@ class MyApp extends React.Component {
       <img  src="https://picsum.photos/800/303/?random" alt="4" />  ,
       <img src="https://picsum.photos/800/304/?random" alt="5" />];
 
-      let slides2=[<Section2></Section2>, <Section3></Section3>]
+      let slides2=[<Slide1></Slide1>, <Slide2></Slide2>,<Slide3></Slide3>]
       return (
         <div>
         <button onClick={(e)=>this.pausePlay()}>X</button>

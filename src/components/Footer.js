@@ -16,7 +16,7 @@ function Footer() {
   <div class="rightFootNav">
   <a>Accessibility</a><a class="rightp">|</a><a>Privacy Policy</a><a class="rightp">|</a><a>Site Map</a>
   </div>
-  <img src="images/FooterLogo.svg" class="rightLogo"></img>
+  <img src={img2} class="rightLogo"></img>
   </div>
   </footer>
 

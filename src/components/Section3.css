@@ -1,0 +1,9 @@
+#section3 {
+    background-image: url("../assets/beach2.jpg");
+    height: 100vh;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

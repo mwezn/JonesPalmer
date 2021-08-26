@@ -98,7 +98,6 @@ div.inner-outline p {
     .card3 {
         position: relative;
         top:200px;
-        
         display: grid;
         height: calc(300px + 10vw);
         width: 85%;
@@ -106,6 +105,17 @@ div.inner-outline p {
         background-color: rgba(29, 240, 58, 0.4);
         transition: all .5s;
         
+    }
+    .card4 {
+        position: relative;
+        top:200px;
+        display: grid;
+        height: calc(300px + 10vw);
+        width: 85%;
+        padding-right: calc(2vw- 20px);
+        background-color: rgba(245, 165, 61, 0.4);
+        transition: all .5s;
+
     }
     .card2:hover {
         transform: scale(1.2);
