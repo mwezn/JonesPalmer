@@ -27,12 +27,19 @@ class MyApp extends React.Component {
       <img  src="https://picsum.photos/800/302/?random" alt="3" />  , 
       <img  src="https://picsum.photos/800/303/?random" alt="4" />  ,
       <img src="https://picsum.photos/800/304/?random" alt="5" />];
-
+      let btnStyle={width:"75px",height:"75px", position:"relative", top:"0px",backgroundColor:"rgb(1,1,1,0.7)",color:"white"}
+      const mystyle = {
+        color: "white",
+        backgroundColor: "DodgerBlue",
+        padding: "10px",
+        fontFamily: "Arial"
+      };
       let slides2=[<Slide1></Slide1>, <Slide2></Slide2>,<Slide3></Slide3>]
       return (
         <div>
-        <button onClick={(e)=>this.pausePlay()}>X</button>
+        
         <div id="section2">
+        <button style={btnStyle} onClick={(e)=>this.pausePlay()}>X</button>
         <Carousel statusFormatter={(current, total) => `${current} / ${total}`} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.state.autoplay}>
         {slides2}
         </Carousel>
