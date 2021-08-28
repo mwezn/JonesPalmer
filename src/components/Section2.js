@@ -135,6 +135,22 @@ quis eaquibus
 
   )
 }
+function Slide5(){
+  return(
+  <div class="bottomcarasol">
+  <h2>Heading <br></br>Level <br></br> Two</h2>
+  <p>Consequi dunt porum aut ipitae delit es re si od modiscia
+    quae quiam inum ea rum, quibusa sin perum et eum lab
+    illendamust. quas minctint.</p> 
+  <br></br>
+  <p>
+    More Random writing here
+  </p>
+  <hr></hr>
+  </div>
+
+  )
+}
 
 
-export {Slide1, Slide2, Slide3,Slide4}
+export {Slide1, Slide2, Slide3,Slide4,Slide5}

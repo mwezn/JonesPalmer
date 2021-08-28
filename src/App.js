@@ -1,7 +1,6 @@
 import Navbar from './components/Navbar'
 import Section1 from './components/Section1'
-//import {Sect2} from './components/Section2'
-import {MyApp} from './components/Carasol'
+import MyApp from './components/Carasol'
 import Section3 from './components/Section3'
 import Footer from './components/Footer'
 

@@ -100,12 +100,19 @@ div.inner-outline p {
     border: 2px solid grey;
     background: #cccccc;
     /* Fallback for older browsers without RGBA-support */
-    background: rgba(204, 204, 204, 0.5);
+    background: rgba(219, 208, 208, 0.7);
   }
+  div.bottomcarasol p {
+    color:black;
+    text-align:left;
+}
 
 div.bottomcarasol h1 {
+    color:black;
+    text-align:left;
+    padding:30px;
+    font-size:calc(30px + 6 * ((100vw - 600px) / 680))
 
-    font-size:10px;
 }
 
   @media only screen and (min-width: 800px) { 
@@ -207,6 +214,7 @@ div.bottomcarasol h1 {
         background: rgba(219, 208, 208, 0.7);
       }
     div.bottomcarasol p {
+        color:black;
         text-align:left;
     }
 

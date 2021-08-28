@@ -1,5 +1,5 @@
 import './Section3.css'
-import {MyApp2} from './Carasol'
+import MyApp2 from './Carasol2'
 function Section3() {
     return (
       <div id="section3">
