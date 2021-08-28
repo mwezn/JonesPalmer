@@ -115,13 +115,26 @@ function Slide3 (){
     </div>
   </div>)
 }
+function Slide4 (){
+  return(
+  <div class="bottomcarasol">
+  <h1>Heading <br></br>Level <br></br> One</h1>
+  <p>Consequi dunt porum aut ipitae delit es re si od modiscia
+    quae quiam inum ea rum, quibusa sin perum et eum lab
+    illendamust. quas minctint.</p> 
+  <br></br>
+  <p>
+    Faciaestis si quamus. Ed utem invella volecabo. ltas sime
+volest. suntotatem. Nam, sum quunt et officabo. Nequo
+quas dolorer natemolo corest qui ut aut volut eos cone
+la voluptatio officienes et es que omnis intin corum et, a
+quis eaquibus
+  </p>
+  <hr></hr>
+  </div>
 
-function Sect2(){
-  return (
-    <div id="section2">
-      <Slide1></Slide1>
-    </div>
   )
-
 }
-export {Sect2, Slide1, Slide2, Slide3}
+
+
+export {Slide1, Slide2, Slide3,Slide4}

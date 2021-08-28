@@ -1,5 +1,4 @@
 #section2{
-
     background-image: url("../assets/seasky.jpg");
     height: 110vh;
     width:100%;
@@ -92,6 +91,22 @@ div.inner-outline p {
     width: 80px;
     height: 80px;
   }
+  div.bottomcarasol {
+    width:100%;
+    height:600px;
+    margin: 60px 0px 60px 0px;
+    background-color: white;
+    color: black;
+    border: 2px solid grey;
+    background: #cccccc;
+    /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
+  }
+
+div.bottomcarasol h1 {
+
+    font-size:10px;
+}
 
   @media only screen and (min-width: 800px) { 
     .contain {
@@ -177,6 +192,31 @@ div.inner-outline p {
         width: 80px;
         height: 80px;
       }
+
+      div.bottomcarasol {
+        position: relative;
+        top:100px;
+        width: 100%;
+        height:600px;
+        padding: 40px;
+        background-color: white;
+        color: black;
+        border: 2px solid grey;
+        background: #cccccc;
+        /* Fallback for older browsers without RGBA-support */
+        background: rgba(219, 208, 208, 0.7);
+      }
+    div.bottomcarasol p {
+        text-align:left;
+    }
+
+    div.bottomcarasol h1 {
+        color:black;
+        text-align:left;
+        padding:30px;
+        font-size:50px;
+
+    }
     
 
 

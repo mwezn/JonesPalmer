@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar'
 import Section1 from './components/Section1'
-import {Sect2} from './components/Section2'
-import MyApp from './components/Carasol'
+//import {Sect2} from './components/Section2'
+import {MyApp} from './components/Carasol'
 import Section3 from './components/Section3'
 import Footer from './components/Footer'
 
@@ -15,7 +15,6 @@ function App() {
     <div>
     <Navbar></Navbar>
     <Section1></Section1>
-    <Sect2></Sect2>
     <MyApp></MyApp>
     <Section3></Section3>
     <Footer></Footer>
