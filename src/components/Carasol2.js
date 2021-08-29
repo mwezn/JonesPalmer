@@ -35,7 +35,7 @@ class MyApp2 extends React.Component {
         position:"absolute",
         bottom:0,
         right:110,
-
+        zIndex:200
       }
       
       
@@ -45,23 +45,23 @@ class MyApp2 extends React.Component {
         <div>
         <Carousel renderArrowPrev={(clickHandler, hasPrev, labelPrev) =>
                 hasPrev && (
-                  <button style={{position:"absolute", bottom:0,left:0}} onClick={clickHandler}>
-                  <img className="left"
+                  <button style={btnStyle} onClick={clickHandler}>
+                  <img className="l"
                           src={arrow} />
                   </button>
                     
                     )
             } renderArrowNext={(clickHandler, hasNext, labelNext) =>
               hasNext && (
-                <button style={{position:"absolute", bottom:-100,right:0}} onClick={clickHandler}>
-                <img className="right"
+                <button style={{position:"absolute", bottom:0,right:0}} onClick={clickHandler}>
+                <img className="r"
                     src={arrow} />
             </button>
                   
               )
           }
             
-            width="40%" showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.state.autoplay}>
+          showIndicators={false} width="40%" showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.state.autoplay}>
         {slides}
         </Carousel>
         </div>

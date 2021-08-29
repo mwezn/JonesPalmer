@@ -11,14 +11,14 @@
     padding:10px;
     
 }
-#section3 img.right, img.left {
+#section3 img.l, img.r {
     position: relative;
     width:90px;
     height:90px;
     z-index:22;
 }
 
-#section3 img.left {
+#section3 img.l {
     transform: rotate(-180deg);
     -ms-transform: rotate(-180deg); 
     -webkit-transform: rotate(-180deg);
