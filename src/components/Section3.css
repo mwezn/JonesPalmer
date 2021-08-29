@@ -7,3 +7,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#section3.intro {
+    padding:10px;
+    
+}
+#section3 img.right, img.left {
+    position: relative;
+    width:90px;
+    height:90px;
+    z-index:22;
+}
+
+#section3 img.left {
+    transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg); 
+    -webkit-transform: rotate(-180deg);
+}

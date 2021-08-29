@@ -21,7 +21,12 @@ class MyApp extends React.Component {
      
       const btnStyle={width:"75px",height:"75px", position:"relative", top:"0px",backgroundColor:"rgb(1,1,1,0.7)",color:"white"}
       
-      let slides2=[<Slide1></Slide1>, <Slide2></Slide2>,<Slide3></Slide3>]
+      let slides2=[<Slide1></Slide1>,
+         <Slide2></Slide2>,
+         <Slide3></Slide3>,
+         <img  src="https://picsum.photos/800/300/?random" alt="1" />,
+         <img  src="https://picsum.photos/800/301/?random" alt="2" />  ,
+         <img  src="https://picsum.photos/800/302/?random" alt="3" />  ]
       return (
         <div>
         

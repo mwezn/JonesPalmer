@@ -17,9 +17,6 @@ function App() {
     <MyApp></MyApp>
     <Section3></Section3>
     <Footer></Footer>
-
-
-
     </div>
 
   );

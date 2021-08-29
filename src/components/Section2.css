@@ -114,6 +114,12 @@ div.bottomcarasol h1 {
     font-size:calc(30px + 6 * ((100vw - 600px) / 680))
 
 }
+div.bottomcarasol h2 {
+    color:black;
+    text-align:left;
+    padding:30px;
+    font-size:calc(20px + 6 * ((100vw - 600px) / 680))
+}
 
   @media only screen and (min-width: 800px) { 
     .contain {
@@ -223,7 +229,6 @@ div.bottomcarasol h1 {
         text-align:left;
         padding:30px;
         font-size:50px;
-
     }
     
 
