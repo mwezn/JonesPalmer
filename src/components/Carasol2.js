@@ -4,7 +4,7 @@ import img1 from '../assets/beach.jpg'
 import img2 from '../assets/beach2.jpg'
 import img3 from '../assets/seasky.jpg'
 import arrow from '../assets/rightarrow.svg'
-import "react-responsive-carousel/lib/styles/custom.css"; // requires a loader
+//import "react-responsive-carousel/lib/styles/custom.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import {Slide4,Slide5} from './Section2.js'
 
@@ -61,7 +61,7 @@ class MyApp2 extends React.Component {
               )
           }
             
-          showIndicators={false} width="40%" showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.state.autoplay}>
+          showIndicators={false} width="600px" showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.state.autoplay}>
         {slides}
         </Carousel>
         </div>

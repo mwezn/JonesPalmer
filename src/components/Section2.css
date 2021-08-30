@@ -69,30 +69,10 @@ div.inner-outline p {
 
 }
   
-
-.numbertext {
-    color: #f2f2f2;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 8px 12px;
-    position: relative;
-    bottom: 0;
-    right: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-color: #44daf1;
-    width: 80px;
-    height: 80px;
-  }
   div.bottomcarasol {
-    width:100%;
+    max-width:600px;
+    position: relative;
+    top:50px;
     height:600px;
     margin: 60px 0px 60px 0px;
     background-color: white;
@@ -101,6 +81,8 @@ div.inner-outline p {
     background: #cccccc;
     /* Fallback for older browsers without RGBA-support */
     background: rgba(219, 208, 208, 0.7);
+    padding:12px;
+    font-size: calc(20px + 6 * ((100vw - 600px) / 680))
   }
   div.bottomcarasol p {
     color:black;
@@ -138,7 +120,7 @@ div.bottomcarasol h2 {
         display: grid;
         height: calc(300px + 10vw);
         width: 85%;
-        padding-right: calc(2vw- 20px);
+        /*padding-right: calc(2vw- 20px);*/
         background-color: rgba(47, 57, 61, 0.4);
         transition: all .5s;
         
@@ -184,27 +166,6 @@ div.bottomcarasol h2 {
         margin:20px;
         border:1px solid red;
     }
-    .numbertext {
-        color: #f2f2f2;
-        font-size: 16px;
-        font-weight: bold;
-        padding: 8px 12px;
-        position: relative;
-        bottom:-300px;
-        right: -1740px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: grid;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        background-color: #44daf1;
-        width: 80px;
-        height: 80px;
-      }
 
       div.bottomcarasol {
         position: relative;

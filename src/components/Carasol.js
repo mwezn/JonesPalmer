@@ -1,5 +1,5 @@
 import React from 'react'
-import "react-responsive-carousel/lib/styles/carousel.css"; // requires a loader
+import "./carousel.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import {Slide1, Slide2,Slide3} from './Section2.js'
 
