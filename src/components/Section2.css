@@ -172,7 +172,7 @@ div.bottomcarasol h2 {
         top:100px;
         width: 100%;
         height:600px;
-        padding: 40px;
+        padding: 12px;
         background-color: white;
         color: black;
         border: 2px solid grey;
@@ -183,13 +183,14 @@ div.bottomcarasol h2 {
     div.bottomcarasol p {
         color:black;
         text-align:left;
+        font-size:calc(20px + 2* ((100vw - 600px) / 680))
     }
 
     div.bottomcarasol h1 {
         color:black;
         text-align:left;
-        padding:30px;
-        font-size:50px;
+        padding:20px;
+        font-size:calc(30px + 2* ((100vw - 600px) / 680))
     }
     
 
