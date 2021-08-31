@@ -37,8 +37,8 @@ class MyApp2 extends React.Component {
         right:110,
         zIndex:200
       }
-      
-      
+      let cssWidth=window.innerWidth;
+      console.log(window.innerWidth)
       return (
         <div>
         
@@ -46,7 +46,7 @@ class MyApp2 extends React.Component {
         <Carousel renderArrowPrev={(clickHandler, hasPrev, labelPrev) =>
                 hasPrev && (
                   <button style={btnStyle} onClick={clickHandler}>
-                  <img className="l"
+                  <img className="l" alt="larrow"
                           src={arrow} />
                   </button>
                     
@@ -54,14 +54,14 @@ class MyApp2 extends React.Component {
             } renderArrowNext={(clickHandler, hasNext, labelNext) =>
               hasNext && (
                 <button style={{position:"absolute", bottom:0,right:0}} onClick={clickHandler}>
-                <img className="r"
+                <img className="r" alt="rarrow"
                     src={arrow} />
             </button>
                   
               )
           }
             
-          showIndicators={false} width="600px" showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.state.autoplay}>
+          showIndicators={false} width={cssWidth<=600?"300px":"600px"} showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.state.autoplay}>
         {slides}
         </Carousel>
         </div>
