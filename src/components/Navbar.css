@@ -35,7 +35,7 @@
     position: fixed;
     background-color: rgb(50, 77, 117);
     height: 70px;
-    width: 100vw;
+    width: 100%;
     z-index: 1;
   }
   nav img{

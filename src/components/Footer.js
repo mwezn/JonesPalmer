@@ -6,11 +6,10 @@ import './Footer.css'
 function Footer() {
     return (
         
-  <footer>
+  <footer id="contact">
   <div class="leftLogo">
-  <img src={img} class="leftL" alt="lfooterlogo"></img>
+  <img src={img} alt="lfooterlogo"></img>
   <p>2019 Jones and Palmer </p>
-  <h1>HELLO</h1>
   </div>
   <div class="rightFoot">
   <div class="rightFootNav">

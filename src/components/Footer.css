@@ -1,20 +1,45 @@
-footer.leftLogo {
-    width:60px;
+footer {
+  position: relative;
+  height:100px;
+  width: 100%;
 }
 
+footer .leftLogo {
+    display: flex;
+    position: relative;
+    margin-left:100px;
+    align-items: center;
+}
+footer .leftLogo img{
+  width:150px;
+
+  align-items: center;
+}
+footer .leftLogo p{
+  position:absolute;
+  margin-top:200px;
+  
+}
+footer .rightFoot {
+  display:flex;
+  position: absolute;
+  right:100px;
+  bottom:5px;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+}
+footer .rightFoot img{
+  width:calc(300px + 6 * ((100vw - 600px) / 680))
+  
+}
 footer p, h1 {
     width: 100vw;
     color: black;
     font-size: 20px;
-  }
-  
-  footer .rightLogo {
-    position: absolute;
-    width: 30vh;
-    right:0;
-  }
-  
-  footer a {
+}
+
+footer a {
     color: black;
     font-size: 15px;
   }
