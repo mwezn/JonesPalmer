@@ -7,6 +7,7 @@ import arrow from '../assets/rightarrow.svg'
 //import "react-responsive-carousel/lib/styles/custom.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import {Slide4,Slide5} from './Section2.js'
+import "./carousel.css"
 
 class MyApp2 extends React.Component {
     constructor(props) {
@@ -61,7 +62,7 @@ class MyApp2 extends React.Component {
               )
           }
             
-          showIndicators={false} width={cssWidth<=600?"300px":"600px"} showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.state.autoplay}>
+          showIndicators={true} width={cssWidth<=600?"300px":"600px"} showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.state.autoplay}>
         {slides}
         </Carousel>
         </div>

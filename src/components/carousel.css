@@ -173,7 +173,9 @@ the unwanted NPM version is installed & overwrites my file**/
     position: relative;
     text-align: center; }
     .carousel .slide img {
+      position: relative;
       width: 100%;
+      top:100px;
       vertical-align: top;
       border: 0; }
     .carousel .slide iframe {
