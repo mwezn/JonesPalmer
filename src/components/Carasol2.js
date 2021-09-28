@@ -28,8 +28,7 @@ class MyApp2 extends React.Component {
         <Slide5></Slide5>,
         <img src={img1} alt="5" />,
         <img src={img2} alt="5" />,
-        <img src={img3} alt="5" />
-
+        <img src={img3} alt="5" />,
       ];
 
       let btnStyle={

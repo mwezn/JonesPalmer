@@ -21,7 +21,8 @@
 .card2 {
     display: grid;
     justify-content: space-evenly;
-    height: 85%;
+    height: calc(85%-5vh);
+    margin-bottom: calc(10px + 5vh);
     margin: 10px 0 0 10%;
     width: 80%;
     background-color: rgba(47, 57, 61, 0.4);
@@ -116,7 +117,6 @@ div.bottomcarasol h2 {
     .card2 {
         position: relative;
         top:200px;
-        
         display: grid;
         height: calc(300px + 10vw);
         width: 85%;
@@ -192,7 +192,33 @@ div.bottomcarasol h2 {
         padding:20px;
         font-size:calc(30px + 2* ((100vw - 600px) / 680))
     }
-    
+}
 
+@media only screen and (max-height: 900px) { 
+    div.bottomcarasol {
+        position: relative;
+        top:100px;
+        width: 100%;
+        height: calc(700px - 8em);
+        padding: 12px;
+        background-color: white;
+        color: black;
+        border: 2px solid grey;
+        background: #cccccc;
+        /* Fallback for older browsers without RGBA-support */
+        background: rgba(219, 208, 208, 0.7);
+      }
+    div.bottomcarasol p {
+        color:black;
+        text-align:left;
+        font-size:calc(20px + 2* ((100vh - 600px) / 680))
+    }
 
-  }
+    div.bottomcarasol h1 {
+        color:black;
+        text-align:left;
+        padding:20px;
+        font-size:calc(30px + 2* ((100vh - 600px) / 680))
+    }
+
+}
