@@ -11,19 +11,13 @@ import "./carousel.css"
 
 class MyApp2 extends React.Component {
     constructor(props) {
-      super(props)
-      this.state= {autoplay :false, buttonVal:"play"}
+      super(props);
+      this.state={autoplay:false, buttonVal:"play"}
     }
     
-    pausePlay(){
-        this.state.autoplay?this.setState({autoplay:false,buttonVal:"play"}):this.setState({autoplay:true,buttonVal:"X"})
-        
-    }
     
     render() {
-     
-
-      let slides = [
+  let slides = [
         <Slide4></Slide4>,
         <Slide5></Slide5>,
         <img src={img1} alt="5" />,

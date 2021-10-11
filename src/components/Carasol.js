@@ -13,7 +13,7 @@ class MyApp extends React.Component {
     }
     
     pausePlay(){
-        this.state.autoplay?this.setState({autoplay:false,buttonVal:"play"}):this.setState({autoplay:true,buttonVal:"X"})
+        this.state.autoplay?this.setState({autoplay :false, buttonVal:"play"}):this.setState({autoplay:true,buttonVal:"X"})
         
     }
     
