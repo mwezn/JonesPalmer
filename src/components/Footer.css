@@ -9,15 +9,16 @@ footer .leftLogo {
     position: relative;
     margin-left:100px;
     align-items: center;
+    
 }
 footer .leftLogo img{
-  width:150px;
-
   align-items: center;
+  max-width:20vw;
 }
 footer .leftLogo p{
   position:absolute;
   margin-top:200px;
+  font-size: calc(16px + 16 * ((100vw - 568px) / (768 - 568)))
   
 }
 footer .rightFoot {

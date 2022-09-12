@@ -1,7 +1,7 @@
 import React from 'react'
 import "./carousel.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import {Slide1, Slide2,Slide3} from './Section2.js'
+import {Slide1, Slide2,Slide3,Slide4} from './Section2.js'
 
 
 
@@ -24,9 +24,8 @@ class MyApp extends React.Component {
       let slides2=[<Slide1></Slide1>,
          <Slide2></Slide2>,
          <Slide3></Slide3>,
-         <img  src="https://picsum.photos/800/300/?random" alt="1" />,
-         <img  src="https://picsum.photos/800/301/?random" alt="2" />  ,
-         <img  src="https://picsum.photos/800/302/?random" alt="3" />  ]
+         <Slide4></Slide4>
+         ]
       return (
         <div>
         

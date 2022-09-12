@@ -26,7 +26,7 @@
     display:grid;
     border: 2px solid #44daf1;
     grid-template-rows: 30vh 30vh 30vh;
-    grid-column-gap: 20px;
+    grid-row-gap: 2px;
     justify-content: space-between;
     align-items: center;
 }
@@ -34,17 +34,19 @@
 .card2 {
     display: grid;
     justify-content: space-evenly;
-    height: calc(85%-5vh);
+    height: 90%;
     margin-bottom: calc(10px + 5vh);
     margin: 10px 0 0 10%;
+    padding:10px 10px 10px 10px;
     width: 80%;
     background-color: rgba(47, 57, 61, 0.4);
 }
 .card3 {
     display: grid;
     justify-content: space-evenly;
-    height: 85%;
+    height: 90%;
     margin: 10px 0 0 10%;
+    padding:10px 10px 10px 10px;
     width: 80%;
     background-color: rgba(29, 240, 58, 0.4);
    
@@ -53,8 +55,9 @@
 .card4 {
     display: grid;
     justify-content: space-evenly;
-    height: 85%;
+    height: 90%;
     margin: 10px 0 0 10%;
+    padding:10px 10px 10px 10px;
     width: 80%;
     background-color: rgba(245, 165, 61, 0.4);
     
@@ -96,11 +99,13 @@ div.inner-outline p {
     /* Fallback for older browsers without RGBA-support */
     background: rgba(219, 208, 208, 0.7);
     padding:12px;
-    font-size: calc(20px + 6 * ((100vw - 600px) / 680))
+    overflow: scroll;
+    
   }
   div.bottomcarasol p {
     color:black;
     text-align:left;
+    font-size: calc(8px + 6 * ((100vw - 600px) / 680))
 }
 
 div.bottomcarasol h1 {
@@ -138,6 +143,10 @@ div.bottomcarasol h2 {
         transition: all .5s;
         
     }
+    .card2:hover {
+        transform: scale(1.2);
+        background-color: rgba(47, 57, 61, 0.9);;
+    }
     .card3 {
         position: relative;
         top:200px;
@@ -149,6 +158,10 @@ div.bottomcarasol h2 {
         transition: all .5s;
         
     }
+    .card3:hover {
+        transform: scale(1.2);
+        background-color:rgba(29, 240, 58, 0.9);
+    }
     .card4 {
         position: relative;
         top:200px;
@@ -158,12 +171,13 @@ div.bottomcarasol h2 {
         padding-right: calc(2vw- 20px);
         background-color: rgba(245, 165, 61, 0.4);
         transition: all .5s;
-
     }
-    .card2:hover {
+    .card4:hover {
         transform: scale(1.2);
-        background-color: rgba(47, 57, 61, 0.9);;
+        background-color:rgba(245, 165, 61, 0.9);
     }
+    
+    
     div.inner-outline h2 {
         margin: auto;
     }
@@ -196,7 +210,7 @@ div.bottomcarasol h2 {
     div.bottomcarasol p {
         color:black;
         text-align:left;
-        font-size:calc(20px + 2* ((100vw - 600px) / 680))
+        font-size:calc(8px + 2* ((100vw - 600px) / 680))
     }
 
     div.bottomcarasol h1 {
@@ -219,9 +233,7 @@ div.bottomcarasol h2 {
         background-color: white;
         color: black;
         border: 2px solid grey;
-        background: #cccccc;
-        /* Fallback for older browsers without RGBA-support */
-        background: rgba(45, 216, 207, 0.7);
+        background: rgba(219, 208, 208, 0.7);
       }
     div.bottomcarasol p {
         color:black;
