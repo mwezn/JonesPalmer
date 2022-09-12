@@ -262,7 +262,7 @@ the unwanted NPM version is installed & overwrites my file**/
             -ms-flex-align: center;
                 align-items: center;
         background-color: #44daf1;
-        width: 8vw;
+        width: 1vw;
         height: 100px;
   }
   .carousel:hover .slide .legend {

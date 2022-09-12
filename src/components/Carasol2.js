@@ -55,7 +55,7 @@ class MyApp2 extends React.Component {
               )
           }
             
-          showIndicators={true} width={cssWidth<=600?"300px":"600px"} showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.state.autoplay}>
+          showIndicators={false} width={cssWidth<=600?"300px":"600px"} showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.state.autoplay}>
         {slides}
         </Carousel>
         </div>
