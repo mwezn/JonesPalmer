@@ -9,7 +9,7 @@ function Footer() {
   <footer id="contact">
   <div class="leftLogo">
   <img src={img} alt="lfooterlogo"></img>
-  <p>2019 Jones and Palmer </p>
+  <p>2019 Jones and Palmer !</p>
   </div>
   <div class="rightFoot">
   <div class="rightFootNav">

@@ -1,47 +1,43 @@
 footer {
-  position: relative;
-  height:100px;
-  width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.leftLogo img  {
+    max-width: 100vw;
+    margin-left: 20vw;
+
+}
+.rightFoot {
+    max-width: 100px;
+}
+.rightFoot img {
+    max-width: 100vw;
+  
+
 }
 
-footer .leftLogo {
-    display: flex;
-    position: relative;
-    margin-left:100px;
-    align-items: center;
+@media only screen and (min-width: 600px) {
+    p {
+        color:aqua;
+    }
+    .leftLogo {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftLogo img  {
+        max-width: 50px;
     
-}
-footer .leftLogo img{
-  align-items: center;
-  max-width:20vw;
-}
-footer .leftLogo p{
-  position:absolute;
-  margin-top:200px;
-  font-size: calc(16px + 16 * ((100vw - 568px) / (768 - 568)))
-  
-}
-footer .rightFoot {
-  display:flex;
-  position: absolute;
-  right:100px;
-  bottom:5px;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items: flex-end;
-}
-footer .rightFoot img{
-  width:calc(300px + 6 * ((100vw - 600px) / 680))
-  
-}
-footer p, h1 {
-    width: 100vw;
-    color: black;
-    font-size: 20px;
-}
+    }
 
-footer a {
-    color: black;
-    font-size: 15px;
-  }
-  
+    footer {
+        display:grid;
+        grid-template-columns: 100px 100px;
+    }
+
+    .rightFoot img {
+        max-width:50%;
+    }
+
+}
