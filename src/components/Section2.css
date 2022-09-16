@@ -215,7 +215,7 @@ div.bottomcarasol h2 {
         position: relative;
         top:100px;
         width: 100%;
-        height: calc(100% - 2em);
+        height: 400px;
         padding: 12px;
         background-color: white;
         color: black;
