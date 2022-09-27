@@ -25,21 +25,16 @@ class MyApp2 extends React.Component {
         <img src={img3} alt="5" />,
       ];
 
-      let btnStyle={
-        position:"absolute",
-        bottom:0,
-        right:110,
-        zIndex:200
-      }
+      
       let cssWidth=window.innerWidth;
-      console.log(window.innerWidth)
+      console.log(cssWidth)
       return (
         <div>
         
-        <div>
+        <div className="btmCar">
         <Carousel renderArrowPrev={(clickHandler, hasPrev, labelPrev) =>
                 hasPrev && (
-                  <button style={btnStyle} onClick={clickHandler}>
+                  <button className="l" onClick={clickHandler}>
                   <img className="l" alt="larrow"
                           src={arrow} />
                   </button>
@@ -47,7 +42,7 @@ class MyApp2 extends React.Component {
                     )
             } renderArrowNext={(clickHandler, hasNext, labelNext) =>
               hasNext && (
-                <button style={{position:"absolute", bottom:0,right:0}} onClick={clickHandler}>
+                <button className='r' onClick={clickHandler}>
                 <img className="r" alt="rarrow"
                     src={arrow} />
             </button>
@@ -55,7 +50,7 @@ class MyApp2 extends React.Component {
               )
           }
             
-          showIndicators={false} width={cssWidth<=600?"300px":"600px"} showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.state.autoplay}>
+          showIndicators={false} width={"90vw"} showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.stateautoplay}>
         {slides}
         </Carousel>
         </div>

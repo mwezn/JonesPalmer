@@ -74,11 +74,11 @@ div.inner-outline p {
 }
   
   div.bottomcarasol {
-    max-width:600px;
+    max-width:100vw;
     position: relative;
     top:50px;
-    height:600px;
-    margin: 60px 0px 60px 0px;
+    height:450px;
+    margin: 60px 0px 20% 0px;
     background-color: white;
     color: black;
     border: 2px solid grey;
@@ -180,12 +180,11 @@ div.bottomcarasol h2 {
         margin:20px;
         border:1px solid red;
     }
-
-      div.bottomcarasol {
+    div.bottomcarasol {
         position: relative;
         top:100px;
-        width: 100%;
-        height:700px;
+        max-width: 100vw;
+        height:400px;
         padding: 12px;
         background-color: white;
         color: black;
@@ -209,59 +208,3 @@ div.bottomcarasol h2 {
 }
 
 
-
-@media only screen and (max-height: 900px) { 
-    div.bottomcarasol {
-        position: relative;
-        top:100px;
-        width: 100%;
-        height: 400px;
-        padding: 12px;
-        background-color: white;
-        color: black;
-        border: 2px solid grey;
-        background: rgba(219, 208, 208, 0.7);
-      }
-    div.bottomcarasol p {
-        color:black;
-        text-align:left;
-        font-size:calc(20px + 2* ((100vh - 600px) / 680))
-    }
-
-    div.bottomcarasol h1 {
-        color:black;
-        text-align:left;
-        padding:20px;
-        font-size:calc(30px + 2* ((100vh - 600px) / 680))
-    }
-
-}
-
-@media only screen and (max-height: 600px) { 
-    div.bottomcarasol {
-        position: relative;
-        top:100px;
-        width: 100%;
-        height: calc(100% - 2em);
-        padding: 12px;
-        background-color: white;
-        color: black;
-        border: 2px solid grey;
-        background: #cccccc;
-        /* Fallback for older browsers without RGBA-support */
-        background: rgba(219, 208, 208, 0.7);
-      }
-    div.bottomcarasol p {
-        color:black;
-        text-align:left;
-        font-size:calc(10px + 2* ((100vh - 600px) / 680))
-    }
-
-    div.bottomcarasol h1 {
-        color:black;
-        text-align:left;
-        padding:20px;
-        font-size:calc(20px + 2* ((100vh - 600px) / 680))
-    }
-
-}
