@@ -1,12 +1,12 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Encode Sans SC', sans-serif;
-    color: #fff;
-  }
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Encode Sans SC', sans-serif;
+  color: #fff;
+}
 
   /*I wrote this mobile first template myself */
-  .hamburger {
+  .jphamburger {
     position:fixed;
     display:block;
     top: 15px;
@@ -15,11 +15,11 @@
     opacity:1;
     transition: all 1s;
   }
-  .hamburger.active {
+  .jphamburger.active {
     opacity:0;
     transform: rotate(90deg);
   }
-  .close {
+  .jpclose {
       position:fixed;
       display:block;
       opacity:0;
@@ -28,23 +28,23 @@
       cursor:pointer;
       transition: all 1s;
   }
-  .close.active {
+  .jpclose.active {
     opacity:1;
   }
-  nav#navbar {
+  nav#jpnavbar {
     position: fixed;
     background-color: rgb(50, 77, 117);
     height: 70px;
     width: 100%;
     z-index: 1;
   }
-  nav img{
+  nav img.jplogo{
     position: relative;
     width:60px;
     left:calc(100% - 30px)
   }
  
-  .logo {
+  .logodiv {
       position:fixed;
       left:15px;
       object-fit: contain;
@@ -63,19 +63,19 @@
     transition: .4s;
   }
 
-  #navbar ul  {
+  #jpnavbar ul  {
     list-style: none;
     color: #fff;
     font-size: 40px;
     margin: 100px 0 0 40vw;
   }
-  #navbar ul li  {
+  #jpnavbar ul li  {
     list-style: none;
     padding:400px 0 20 30vw;
   }
 
   
-  .navbar-links li a {
+  .jpnavbar-links li a {
     position: relative;
     text-transform: uppercase;
     /*font-size:10px;*/
@@ -84,7 +84,7 @@
     
     
   }
-  .navbar-links li a::before{ 
+  .jpnavbar-links li a::before{ 
     /* This adds vertical pseudo elements to the navbar anchor tags. 
     which allows the hover line expand effect */
     content: "";
@@ -97,25 +97,25 @@
     background: #fff;
     transition: all .1s;
   }
-  .navbar-links li a:hover::before {
+  .jpnavbar-links li a:hover::before {
     width:2px;
     height:40px;
     border-radius: 50px;
   }
   
-  #showbar.active {
+  #jpshowbar.active {
     top: 0;
   }
 
   @media only screen and (min-width: 600px) { /*media query for any screen larger than mobile*/
-    .hamburger { 
+    .jphamburger { 
       display:none;
     }
-    .close {
+    .jpclose {
       display: none; /* Hides the SVG hamburger/close buttons when browser window is bigger than mobile phone!*/
     }
 
-    #showbar {
+    #jpshowbar {
       position: absolute;
       width: 100%;
       height: 70px;
@@ -123,10 +123,10 @@
       top:0;
       
     }
-    .navbar-links {
+    .jpnavbar-links {
       display: block;
     }
-    #navbar ul  {
+    #jpnavbar ul  {
       list-style: none;
       color: white;
       font-size: 20px;
@@ -134,25 +134,25 @@
       display: flex;
     }
     
-    #navbar ul li {
+    #jpnavbar ul li {
       list-style: none;
       padding:25px 0 0 10px; /* top right bottom left */
       margin: 0 0 0 10vw; /*top right bottom left */
       
     }
-    .navbar-links li a {
+    .jpnavbar-links li a {
       padding: 25px 1vw 0 2px;
       font-size: calc(12px + 6 * ((100vw - 600px) / 680)) /* I included this to allow fluid typography */
      
    }
-   .navbar-links li a::before { /*Removes the mobile first vertical pseudo elements */
+   .jpnavbar-links li a::before { /*Removes the mobile first vertical pseudo elements */
      content:none;
      border-radius: 10px;
      background: #fff;
      transition: all .1s;
 
    }
-   .navbar-links li a::after{ /*pseudo element to create horizontal hover effect on navbar links */
+   .jpnavbar-links li a::after{ /*pseudo element to create horizontal hover effect on navbar links */
      content: "";
      display:block;
      width:0px;
@@ -161,7 +161,7 @@
      background: #fff;
      transition: all .3s;
    }
-   .navbar-links li a:hover::after{
+   .jpnavbar-links li a:hover::after{
      width:90%;
    }
    

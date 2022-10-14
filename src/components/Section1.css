@@ -1,4 +1,4 @@
-#section1 {  /* Parallax effect */
+#jpsection1 {  /* Parallax effect */
     background-image: url("../assets/boardwalkXL.jpg");
     height: 100vh;
     width:100%;
@@ -8,7 +8,7 @@
     background-size: cover;
   }
 
- div.intro {
+ div.jpintro {
     display: grid;
     position: relative;
     text-align: center;
@@ -16,21 +16,21 @@
 
   }
 
-  div.intro  h1 {
+  div.jpintro  h1 {
     font-size: calc(50px + 6 * ((100vw - 600px) / 680));
     font-family: monospace;
     color: #1b3d29
     
   }
 
-  div.intro h2 {
+  div.jpintro h2 {
     margin: calc(10px + 6 * ((100vw - 600px) / 680));
     font-size: calc(20px + 6 * ((100vw - 600px) / 680));
     font-family: monospace;
     color: #112356
     
   }
-  div.intro h3 {
+  div.jpintro h3 {
     margin: 10px;
     font-size: calc(15px + 6 * ((100vw - 600px) / 680));
     font-family: monospace;

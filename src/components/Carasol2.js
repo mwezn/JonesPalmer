@@ -1,8 +1,5 @@
 //This is my customised version of the React-responsive-carousel
 import React from 'react'
-import img1 from '../assets/beach.jpg'
-import img2 from '../assets/beach2.jpg'
-import img3 from '../assets/seasky.jpg'
 import arrow from '../assets/rightarrow.svg'
 //import "react-responsive-carousel/lib/styles/custom.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -19,10 +16,7 @@ class MyApp2 extends React.Component {
     render() {
   let slides = [
         <Slide4></Slide4>,
-        <Slide5></Slide5>,
-        <img src={img1} alt="5" />,
-        <img src={img2} alt="5" />,
-        <img src={img3} alt="5" />,
+        <Slide5></Slide5>
       ];
 
       
@@ -50,7 +44,7 @@ class MyApp2 extends React.Component {
               )
           }
             
-          showIndicators={false} width={"90vw"} showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.stateautoplay}>
+          showIndicators={false} width={"80vw"} height={"80%"} showStatus={false} showThumbs={false} infiniteLoop={true} interval={2000} autoPlay={this.stateautoplay}>
         {slides}
         </Carousel>
         </div>

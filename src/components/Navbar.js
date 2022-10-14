@@ -11,12 +11,12 @@ const Navbar =()=> {
 
     return (
         <header>
-        <nav id="navbar">
-            <div class="logo">
-             <img src={img} alt="Random text"></img>
+        <nav id="jpnavbar">
+            <div class="logodiv">
+             <img src={img} alt="Random text" class="jplogo"></img>
             </div>
-        <div id="showbar">
-        <div id="close" class="close">
+        <div id="jpshowbar">
+        <div id="close" class="jpclose">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="45" viewBox="0 0 50 50" overflow="visible" stroke="#fff" stroke-width="5" >
                 <g color="#fff">
                 <line x2="50" y2="45" />
@@ -24,7 +24,7 @@ const Navbar =()=> {
                 </g>
              </svg>
         </div>
-        <div id="hamburger" class="hamburger" onClick={e=>show()}>
+        <div id="hamburger" class="jphamburger" onClick={e=>show()}>
             <svg viewBox="0 0 100 80" width="40" height="40">
                 <g color="#fff">
                 <rect width="100" height="10" fill="currentcolor"></rect>
@@ -33,7 +33,7 @@ const Navbar =()=> {
                 </g>
             </svg>
         </div>
-        <ul class="navbar-links">
+        <ul class="jpnavbar-links">
           <li><a href="#section1">Section1</a></li>
           <li><a href="#section2">Section2</a></li>
           <li><a href="#contact">Contact</a></li>
