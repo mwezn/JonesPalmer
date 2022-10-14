@@ -6,16 +6,16 @@ import './Footer.css'
 function Footer() {
     return (
         
-  <footer id="contact">
-  <div class="leftLogo">
-  <img src={img} alt="lfooterlogo"></img>
+  <footer id="jpcontact">
+  <div class="jpleftLogo">
+  <img src={img} alt="jplfooterlogo"></img>
   <span>2019 Jones and Palmer</span>
   </div>
-  <div class="rightFoot">
-  <div class="rightFootNav">
+  <div class="jprightFoot">
+  <div class="jprightFootNav">
   <a href="#access">Accessibility</a><a href="#none" class="rightp">|</a><a href="#privacy">Privacy Policy</a><a class="rightp" href="#none">|</a><a href="#sitemap">Site Map</a>
   </div>
-  <img src={img2} class="rightLogo" alt="rfooterlogo"></img>
+  <img src={img2} class="jprightLogo" alt="rfooterlogo"></img>
   </div>
   </footer>
 
