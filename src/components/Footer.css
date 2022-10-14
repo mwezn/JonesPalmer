@@ -2,7 +2,7 @@ footer#jpcontact {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: center;
 }
 .jpleftLogo  {
     display: flex;
@@ -23,7 +23,7 @@ footer#jpcontact {
     max-width:50vw;
 }
 .jprightFoot img {
-    max-width: 90vw;
+    max-width: 60vw;
     margin-top:100px;
   
 }
