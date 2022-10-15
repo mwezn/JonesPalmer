@@ -5,7 +5,7 @@ function Slide1() {
     return (
       <div class="mySlides fade">
       <div class="contain">
-      <div class="card2 inner-outline">
+      <div class="jpcard2 inner-outline">
             <h2>Heading 2</h2>
             <ul>
               <li>&#128167;Bullet 1</li>
@@ -13,7 +13,7 @@ function Slide1() {
               <li>&#128167;Bullet 3</li>
             </ul>
         </div>
-        <div class="card2 inner-outline">
+        <div class="jpcard2 inner-outline">
        
          <h2>Heading 2</h2>
          <p>Si cum sequatiste
@@ -29,7 +29,7 @@ function Slide1() {
             dolorporrum @"2rersped</p>
       
         </div>
-        <div class="card2 inner-outline">
+        <div class="jpcard2 inner-outline">
          <h2>Heading 2</h2>
          <ul class="card-ul">
           <li>&#128167;Hi</li>
@@ -44,7 +44,7 @@ function Slide1() {
 function Slide2 (){
   return(<div class="mySlides fade">
   <div class="contain">
-  <div class="card3 inner-outline">
+  <div class="jpcard3 inner-outline">
         <h2>Heading 2</h2>
         <ul>
           <li>&#128167;Bullet 1</li>
@@ -52,7 +52,7 @@ function Slide2 (){
           <li>&#128167;Bullet 3</li>
         </ul>
     </div>
-    <div class="card3 inner-outline">
+    <div class="jpcard3 inner-outline">
    
      <h2>Heading 2</h2>
      <p>Si cum sequatiste
@@ -68,7 +68,7 @@ function Slide2 (){
         dolorporrum @"2rersped</p>
   
     </div>
-    <div class="card3 inner-outline">
+    <div class="jpcard3 inner-outline">
      <h2>Heading 2</h2>
      <ul class="card-ul">
       <li>&#128167;Hi</li>
@@ -81,7 +81,7 @@ function Slide2 (){
 function Slide3 (){
   return(<div class="mySlides fade">
   <div class="contain">
-  <div class="card4 inner-outline">
+  <div class="jpcard4 inner-outline">
         <h2>Heading 2</h2>
         <ul>
           <li>&#128167;Bullet 1</li>
@@ -89,7 +89,7 @@ function Slide3 (){
           <li>&#128167;Bullet 3</li>
         </ul>
     </div>
-    <div class="card4 inner-outline">
+    <div class="jpcard4 inner-outline">
    
      <h2>Heading 2</h2>
      <p>Si cum sequatiste
@@ -105,7 +105,7 @@ function Slide3 (){
         dolorporrum @"2rersped</p>
   
     </div>
-    <div class="card4 inner-outline">
+    <div class="jpcard4 inner-outline">
      <h2>Heading 2</h2>
      <ul class="card-ul">
       <li>&#128167;Hi</li>
